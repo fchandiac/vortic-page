@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0 auto;
+  background-color: #1A1A1A;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Para que herede el color del elemento padre */
+}
+
+.background-image {
+  position: fixed;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+@media (max-width: 599.99px) { /* xs and down */
+  .background-image {
+    height: 100%;
+  }
+  .m-inline-img {
+    margin-inline: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959.99px) { /* sm */
+  .background-image {
+    height: 100%;
+  }
+
+}
+
+@media (min-width: 960px) and (max-width: 1279.99px) { /* md */
+  .background-image {
+    height: 100%;
+  }
+
+}
+
+@media (min-width: 1280px) { /* lg and up */
+  .background-image {
+    height: 100%;
+  }
+
+}
