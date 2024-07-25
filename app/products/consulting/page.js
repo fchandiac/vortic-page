@@ -15,7 +15,7 @@ export default function page() {
           }}
         >
           <img
-            src="/imgconsulting.png"
+            src="/imgConsulting.png"
             alt="Vortic App"
             className="background-image"
           />

@@ -409,7 +409,7 @@ export default function RootLayout({ children }) {
               <IconButton
                 onClick={() => {
                   window.open(
-                    "https://www.instagram.com/vortic.space?igsh=MXQ1djdxcWZpOTk2ZA==",
+                    "https://www.instagram.com/vortic.tech/",
                     "_blank",
                     "noopener,noreferrer"
                   );
@@ -426,7 +426,7 @@ export default function RootLayout({ children }) {
               <IconButton
                 onClick={() => {
                   window.open(
-                    "https://www.instagram.com/vortic.space?igsh=MXQ1djdxcWZpOTk2ZA==",
+                    "https://www.linkedin.com/company/vortic-tech/",
                     "_blank",
                     "noopener,noreferrer"
                   );
